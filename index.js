@@ -114,7 +114,7 @@ for (i = 0; i < sayilar.length; i++) {
 /* kodlar buraya */
 
 // 3b çözümü:
-const ucetambolunenler = [];
+ucetambolunenler = [];
 
 sayilar.forEach((a) => {
   if (a % 3 === 0) {
@@ -125,17 +125,17 @@ sayilar.forEach((a) => {
 /* kodlar buraya */
 
 // 3c çözümü:
-const ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => toplam + sayi, 0)
+ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => toplam + sayi, 0)
 
 /* kodlar buraya */
 
 // 3d çözümü
-const besyuzdenkucuksayilar = sayilar.filter((sayi) => sayi < 500);
+besyuzdenkucuksayilar = sayilar.filter((sayi) => sayi < 500);
 
 /* kodlar buraya */
 
 // 3e çözümü
-const siralisayilar = [...sayilar];
+siralisayilar = [...sayilar];
 siralisayilar.sort((a, b) => a - b);
 /* kodlar buraya */
 
